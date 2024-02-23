@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mid Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Buy Now</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="buynow.html">Buy Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="order-form">
+        <h2>Place Your Order</h2>
+        <div class="form-container">
+            <form id="orderForm" method="Post" onsubmit="return formSubmit();" action="">
+
+                <label for="email">Email *</label>
+                <input type="" id="email">
+
+                <label for="clientID">Client ID *</label>
+                <input type="" id="clientID">
+
+                <label for="jacketQty">Jacket Quantity</label>
+                <input type="" id="jacketQty">
+
+                <label for="scissorQty">Scissor Quantity</label>
+                <input type="" id="scissorQty">
+
+                <label for="jarQty">Jar Quantity</label>
+                <input type="" id="jarQty">
+
+                <button type="submit">Place Order</button>
+
+                <div id="error-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <div class="form-container">
+        <section id="receipt">
+            <h2>Receipt</h2>
+            <div id="receipt-details"></div>
+        </section>
+    </div>
+    <br>
+    <br><br>
+
+    <footer>
+        <p>&copy; 2024 Trade Gifts. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
